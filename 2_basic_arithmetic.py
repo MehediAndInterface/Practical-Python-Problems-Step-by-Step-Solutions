@@ -1,5 +1,3 @@
-
-
 """
 Basic Arithmetic: Take two numbers as input and print their sum, difference,
 product, and quotient.
@@ -28,7 +26,7 @@ def perform_arithmetic():
 
     # step 5 & 6
     if num2 != 0:
-        quot_result = num1 / num2
+        print(f"quotation: {num1 / num2}")
     else:
         print("Cannot calculate quotient: Division by zero is not allowed.")
 
